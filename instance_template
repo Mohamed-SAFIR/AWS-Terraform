@@ -1,4 +1,4 @@
-resource "aws_instance" "<##INSTANCE_NAME##>" {
+resource "aws_instance" "INSTANCE_MSAFIR_DEMO" {
         key_name = "test_keypair"
         ami = "ami-021d41cbdefc0c994"
         security_groups = ["sg-0d605db1926ea0643"]
